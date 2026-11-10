@@ -1,0 +1,29 @@
+============================= test session starts ==============================
+platform linux -- Python 3.13.18, pytest-9.2.0, pluggy-1.7.0 -- /usr/local/bin/python
+rootdir: /home/user/tangible
+configfile: pyproject.toml
+plugins: anyio-4.15.1
+collecting ... collected 1 item
+
+tests/test_render/test_acceptance.py::TestRender::test_basic <svg xmlns="http://www.w3.org/2000/svg" width="306" height="180" viewBox="0 0 306 180" font-family="monospace" font-size="14">
+  <g class="dir">
+    <rect x="20" y="20" width="123" height="60" fill="none" stroke="black"/>
+    <text x="81.5" y="50.0" text-anchor="middle" dominant-baseline="middle">src</text>
+  </g>
+  <g class="dir">
+    <rect x="163" y="20" width="123" height="60" fill="none" stroke="black"/>
+    <text x="224.5" y="50.0" text-anchor="middle" dominant-baseline="middle">tests</text>
+  </g>
+  <g class="file">
+    <rect x="20" y="100" width="123" height="60" fill="none" stroke="black"/>
+    <text x="81.5" y="130.0" text-anchor="middle" dominant-baseline="middle">README.md</text>
+  </g>
+  <g class="file">
+    <rect x="163" y="100" width="123" height="60" fill="none" stroke="black"/>
+    <text x="224.5" y="130.0" text-anchor="middle" dominant-baseline="middle">a&amp;b &lt;c&gt;.txt</text>
+  </g>
+</svg>
+
+PASSED
+
+============================== 1 passed in 0.04s ===============================

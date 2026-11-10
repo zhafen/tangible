@@ -1,0 +1,5 @@
+view_factory:
+  - acceptance_criterion:
+      expectation: Each top level file or directory exists in the render as a rectangle with its name inside.
+      generated_by: tests/test_render/test_acceptance.py::TestRender::test_basic
+      path_to_output: requirements/acceptance_criteria/pr1/tests.out

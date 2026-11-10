@@ -1,0 +1,18 @@
+[project]
+name = "tangible"
+version = "0.0.1"
+description = "Turn a code repository into a 2D factory you can walk around in."
+requires-python = ">=3.10"
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["tangible"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
